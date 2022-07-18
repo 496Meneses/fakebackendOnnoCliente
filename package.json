@@ -1,0 +1,17 @@
+{
+    "name": "fakeJsonServer",
+    "version": "1.0.0",
+    "description": "Simple fake",
+    "main":"server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "json-server"
+    ],
+    "author": "Camilo meneses",
+    "license":"ISC",
+    "dependencies": {
+        "json-server":"^0.17.0"
+    }
+}
