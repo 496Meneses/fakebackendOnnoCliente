@@ -1,6 +1,6 @@
-const data = require('json-server');
+const data = require('./MOCK_DATA1.json');
 
-const jsonServer = require('./MOCK_DATA1.json')
+const jsonServer = require('json-server')
 
 const server = jsonServer.create();
 const router = jsonServer.router(data);
